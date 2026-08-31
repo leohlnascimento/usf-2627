@@ -179,7 +179,21 @@ Computer Architecture
     Shared Bus (transferring data, addresses, and control signals, which can limit performance).
     Sequential Execution: one at a time in a sequential manner.
 
-- System Bus
-    Data Bus: transfers actual data or instructions between components (bidirectional).
-    Address Bus: carries the address to be accessed from the CPU to the memory or I/O controller (unidirectional).
-    Control Bus: transmits control signals from CPU to other components and status signals back to the CPU, controlling and coordinating operations (read/write signals, interrupt requests, etc) (bidirectional).
+## 10. System Bus
+
+- Data Bus: transfers actual data or instructions between components (bidirectional).
+- Address Bus: carries the address to be accessed from the CPU to the memory or I/O controller (unidirectional).
+- Control Bus: transmits control signals from CPU to other components and status signals back to the CPU, controlling and coordinating operations (read/write signals, interrupt requests, etc) (bidirectional).
+
+## 11. Fetch-Decode-Execute Cycle
+
+Fundamental and repeating process that a CPU uses to run programs.
+Three main stages:
+
+- **Fetch:** retrieveing an instruction from memory
+- **Decode:** interpreting the instruction
+- **Execute:** perform the action, often involving data manipulation or transfer
+
+### Fetch
+
+hi
