@@ -1,15 +1,24 @@
 # Class Notes August 27
 
 Summary:
-    [1. History of Computing](#1-history-of-computing)
-    [2. Moore's Law and Rock's Law](#2-moores-law-and-rocks-law)
-    [3. What is a Modern Computer](#3-what-is-a-modern-computer)
-    [4. Measures of Computer Storage Capacity](#4-measures-of-computer-storage-capacity)
-    [5. Mearures of Processor Speed](#5-mearures-of-processor-speed)
-    [6. Measures of Time and Space](#6-measures-of-time-and-space)
-    [7. Compiler Assembler, Linker, and Loader](#7-compiler-assembler-linker-and-loader)
-    [8. Computer Level Hierarchy](#8-computer-level-hierarchy)
-    [9. von Neumann Modal](#9-von-neumann-modal)
+
+- [1. History of Computing](#1-history-of-computing)
+
+- [2. Moore's Law and Rock's Law](#2-moores-law-and-rocks-law)
+
+- [3. What is a Modern Computer](#3-what-is-a-modern-computer)
+
+- [4. Measures of Computer Storage Capacity](#4-measures-of-computer-storage-capacity)
+
+- [5. Mearures of Processor Speed](#5-mearures-of-processor-speed)
+
+- [6. Measures of Time and Space](#6-measures-of-time-and-space)
+
+- [7. Compiler Assembler, Linker, and Loader](#7-compiler-assembler-linker-and-loader)
+
+- [8. Computer Level Hierarchy](#8-computer-level-hierarchy)
+
+- [9. von Neumann Modal](#9-von-neumann-modal)
 
 ## 1. History of Computing
 
