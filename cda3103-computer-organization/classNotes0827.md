@@ -1,7 +1,7 @@
 # Class Notes August 27
 
 Summary:
-    [1. History of Computing](#1. history of computing)
+    [1. History of Computing](#1.-history-of-computing)
     2. Moore's Law and Rock's Law
     3.
 
@@ -27,46 +27,54 @@ Summary:
 
     5th: AI and Quantum (Now - Future)
         - ULSI (ultra-large-scale integration)
-        - Nanotech
+        - Nanotechnology
 
-2. Moore's Law and Rock's Law
+## 2. Moore's Law and Rock's Law
 
-    Moore's Law (1965): ICs transistors doubles every 18-24 months -> empirical observation
-    Rock's Law (Moore's Second Law): cost of building semiconductor fabrication plants doubles every 4 years
+    Moore's Law (1965): ICs transistors doubles every 18-24 months -> empirical observation.
 
-3. What is a Modern Computer
+    Rock's Law (Moore's Second Law): cost of building semiconductor fabrication plants doubles every 4 years.
+
+## 3. What is a Modern Computer
 
     Electronic, digital, general purpose computing machine that automatically follows a step-by-step list of instructions (algorithm or computer program) to solve a problem.
+
     Three pieces:
 
-    Processor: interprets and executes
-        - registers and ALU (arithmetic and logic unit)
-        - control unit
+    - Processor: interprets and executes
+        - Registers and ALU (arithmetic and logic unit)
+        - Control unit
 
-    Memory: store data and programs
+    - Memory: store data and programs
 
     - Data input and output (I/O)
 
-4. Measures of Computer Storage Capacity
+## 4. Measures of Computer Storage Capacity
 
     1 byte = 8 bits
+    
     Kibibyte, mebibyte, gibibyte, tebibyte, etc
     Pebi, Exbi, zebi, yobi
 
-5. Mearures of Processor Speed
+## 5. Mearures of Processor Speed
 
     Clock Speed (Frequency) is measured in Hertz
+
     Hertz = clock cicles / second
+
     Primarily measured in GHz (10^9 Hz)
+
     Cycle time = 1/Cycle frequency
 
-6. Measures of Time and Space
+## 6. Measures of Time and Space
 
     Time: ms, µs, ns
+
     Space: mm, µm, nm
+    
     Mili, Micro, Nano, Pico, Femto, Atto, Zepto, Yocto
 
-7. Compiler Assembler, Linker, and Loader
+## 7. Compiler Assembler, Linker, and Loader
 
     - **Compiler:** translates HLL code into assembly language or object (machine) code
 
@@ -79,7 +87,7 @@ Summary:
 
     - **Loader:** part of the OS, loads the executable into memory for the CPU to run -> sequential pipeline for human-readable code to a running program
 
-8. Computer Level Hierarchy
+## 8. Computer Level Hierarchy
 
     Levels of abstraction: from phycical hardware (Digital Logic) up to User Level
     Each level hides the details of the level below it.
@@ -108,7 +116,7 @@ Summary:
         Transistors, logic gates, flip-flops.
         Circuits performing basic operations and implementing datapath and control.
 
-9. von Neumann Modal
+## 9. von Neumann Modal
 
     Computer Architecture
     1945 John von Neumann
