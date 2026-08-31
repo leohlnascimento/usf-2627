@@ -7,7 +7,7 @@ Summary:
 
 ## 1. History of Computing
 
-    1st: Vacuum Tubes (1940 - 1956)
+1st: Vacuum Tubes (1940 - 1956)
         - Large, high power, heat, hardware failures
         - Machine language only
 
@@ -71,7 +71,7 @@ Summary:
     Time: ms, µs, ns
 
     Space: mm, µm, nm
-    
+
     Mili, Micro, Nano, Pico, Femto, Atto, Zepto, Yocto
 
 ## 7. Compiler Assembler, Linker, and Loader
