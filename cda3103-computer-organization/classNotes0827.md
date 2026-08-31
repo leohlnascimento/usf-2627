@@ -23,26 +23,31 @@ Summary:
 ## 1. History of Computing
 
 1st: Vacuum Tubes (1940 - 1956)
-    - Large, high power, heat, hardware failures
-    - Machine language only
+
+- Large, high power, heat, hardware failures
+- Machine language only
 
 2nd: Transistors (1956 - 1963)
-    - Smaller, less heat and power, faster
-    - Assembly and early high-level (FORTRAN, COBOL)
+
+- Smaller, less heat and power, faster
+- Assembly and early high-level (FORTRAN, COBOL)
 
 3rd: Integrated Circuit ICs (1964 - 1971)
-    - Much smaller, higher speed, reduced cost
-    - Operating Systems, multiprogramming, high-level languages
+
+- Much smaller, higher speed, reduced cost
+- Operating Systems, multiprogramming, high-level languages
 
 4th: Microprocessors (1971 - Now)
-    - Entire CPU on a single chip
-    - PCs, very high speed, low cost and portable
-    - High level and object oriented languages
-    - GUI-based systems
+
+- Entire CPU on a single chip
+- PCs, very high speed, low cost and portable
+- High level and object oriented languages
+- GUI-based systems
 
 5th: AI and Quantum (Now - Future)
-    - ULSI (ultra-large-scale integration)
-    - Nanotechnology
+
+- ULSI (ultra-large-scale integration)
+- Nanotechnology
 
 ## 2. Moore's Law and Rock's Law
 
@@ -133,43 +138,48 @@ ISA: Instruction Set Architecture
 
 ## 9. von Neumann Modal
 
-    Computer Architecture
-    1945 John von Neumann
+Computer Architecture
+1945 John von Neumann
 
-    - Main Components:
-        - **CPU (Central Processing Unit):**
-            - Arithmetic Logic Unit (ALU): performs arithmetic and logical operations
-            - Control Unit (CU): interpret instructions and generates control signals
-            - Registers: high-speed storage
-                - Program Counter (PC): keeps track of the address of the next instruction to be executed
-                - Instruction Register (IR): holds the current instruction being executed
-                - Stack pointer (SP): holds the memory address of the "top" of the stack
-                - General-purpose: temporary storage of data during processing
+- Main Components:
 
-        - **Main Meory:**
-            Stores both instructions and data.
+  - **CPU (Central Processing Unit):**
 
-        - **I/O Devices:**
-            External hardware like keyboards, monitors, or storage devices.
+    - Arithmetic Logic Unit (ALU): performs arithmetic and logical operations
 
-        - **Bus:**
-            Communication system -> transfers data, addresse, and control signals between the CPU, memory, and I/O devices.
+    - Control Unit (CU): interpret instructions and generates control signals
 
-        - **I/O Bus**: connects CPU and memory to I/O devices.
+    - Registers: high-speed storage
 
-    - Major Limitation: von Neumann Bottleneck
-        Single path between the CPU and main memory.
+      - Program Counter (PC): keeps track of the address of the next instruction to be executed
+      - Instruction Register (IR): holds the current instruction being executed
+      - Stack pointer (SP): holds the memory address of the "top" of the stack
+      - General-purpose: temporary storage of data during processing
 
-    - Program execution:
-        Sequential instruction processing.
-        Each instruction: fetch - decode - execute.
+    - **Main Meory:**
+        Stores both instructions and data.
 
-    - Key Characteristics:
-        Single memory for data and instructions.
-        Shared Bus (transferring data, addresses, and control signals, which can limit performance).
-        Sequential Execution: one at a time in a sequential manner.
+    - **I/O Devices:**
+        External hardware like keyboards, monitors, or storage devices.
 
-    - System Bus
-        Data Bus: transfers actual data or instructions between components (bidirectional).
-        Address Bus: carries the address to be accessed from the CPU to the memory or I/O controller (unidirectional).
-        Control Bus: transmits control signals from CPU to other components and status signals back to the CPU, controlling and coordinating operations (read/write signals, interrupt requests, etc) (bidirectional).
+    - **Bus:**
+        Communication system -> transfers data, addresse, and control signals between the CPU, memory, and I/O devices.
+
+    - **I/O Bus**: connects CPU and memory to I/O devices.
+
+- Major Limitation: von Neumann Bottleneck
+    Single path between the CPU and main memory.
+
+- Program execution:
+    Sequential instruction processing.
+    Each instruction: fetch - decode - execute.
+
+- Key Characteristics:
+    Single memory for data and instructions.
+    Shared Bus (transferring data, addresses, and control signals, which can limit performance).
+    Sequential Execution: one at a time in a sequential manner.
+
+- System Bus
+    Data Bus: transfers actual data or instructions between components (bidirectional).
+    Address Bus: carries the address to be accessed from the CPU to the memory or I/O controller (unidirectional).
+    Control Bus: transmits control signals from CPU to other components and status signals back to the CPU, controlling and coordinating operations (read/write signals, interrupt requests, etc) (bidirectional).
