@@ -216,4 +216,12 @@ Cycle repeats until program ends. Each step may take multiple clock cycles.
 
 #### Example
 
-test
+100 ADD x5, x6, x7
+
+Fetch: IR <- Mem[PC], PC <- PC + 4
+
+Decode: decodes ADD, source operands (x6, x7) destination (x5), generates control signals
+
+Execute: ALU computes x6 + x7
+
+x5 <- ALU result
