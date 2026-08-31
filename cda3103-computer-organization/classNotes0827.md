@@ -196,4 +196,24 @@ Three main stages:
 
 ### Fetch
 
-hi
+- CPU retrieves the next instruction from memory
+- Program Counter (PC) holds the address of the next instruction, which is sent to memory via the *address bus*
+- Instruction is transferred along the *data bus* to the CPU and is temporarily stored in the Instruction Register (IR)
+- PC is incremented to point to the next instruction
+
+### Decode
+
+- Control Unit interprets the code
+- Determines: operation (opcode), operand locations (registers or memory), addressing mode, etc
+- Generates control signals
+
+### Execute
+
+- ALU performs computation or memory read/write occurs or branch/jump updates PC
+- Result stored in register or memory (optional but common)
+
+Cycle repeats until program ends. Each step may take multiple clock cycles.
+
+#### Example
+
+test
