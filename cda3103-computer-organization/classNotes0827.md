@@ -214,7 +214,7 @@ Three main stages:
 
 Cycle repeats until program ends. Each step may take multiple clock cycles.
 
-#### Example
+#### Example 1
 
 100 ADD x5, x6, x7
 
@@ -225,3 +225,108 @@ Decode: decodes ADD, source operands (x6, x7) destination (x5), generates contro
 Execute: ALU computes x6 + x7
 
 x5 <- ALU result
+
+#### Example 2
+
+LW x5, -16(x10)
+
+Load a 32-bit word from memory at address (x10 - 16) into register x5
+
+Fetch: IR <- Mem[PC], PC <- PC + 4
+
+Decode: decodes lw (load word), identifies x10, x5, 12-bit imm, generates control signals
+
+Execute: ALU computes memory address x10 - 16
+
+Read Mem[address]
+
+x5 <- memory data
+
+#### Example 3
+
+SW x5, 32(x10)
+
+Store a 32-bit word (register x5) to memory at address (x10 + 32)
+
+etch: IR <- Mem[PC], PC <- PC + 4
+
+Decode: decodes sw (store word), identifies x10, x5, 12-bit imm, generates control signals
+
+Execute: ALU computes memory address x10 + 32
+
+x5 -> memory[address]
+
+## 12. Non-von Neumann Models/Architectures
+
+Any computer architecture that does not follow the classic von Neumann principle of single shared memory and bus for instructions and data and sequential control by emphasizing parallelism, dataflow, or in-memory processing, etc
+
+They overcome the von Neumann bottleneck.
+
+Improve performance by using parallelism and reduce energy spent moving data.
+
+They are also better suited for data-intensive tasks of AI and Big Data, like Machine Learning, image recognition, and Large Scale Simulations.
+
+### Key Characteristics
+
+- Parallelism:
+    Often designed for massive parallel execution, unlike the sequential nature of von Neumann machines.
+
+- Distributed Memory:
+    May use separate or hierarchical memory structures or process data directly in memory.
+
+- Data-centric:
+    Focus on data movement and processing rather than explicit instruction fetching and sequential control.
+
+- No Program Counter:
+    Some models lack a single program counter, processing based on data availability.
+
+### Major Types
+
+- Harvard Architecture
+    Separate instruction and data memories, separate buses.
+
+- Modified Harvard Architecture
+    Unifies main memory, but separate instruction and data caches.
+
+- Dataflow Architecture
+    Execution driven by availability of data, not by program counter, no global PC.
+
+- Parallel/Multiprocessor Models
+    Multiple CPU's or cores, shared or distributed memory.
+
+- Neural/Neuromorphic Computing
+    Mimics the brain's neural networks, processing information through interconnected nodes (neurons). Memory and computation are tightly coupled.
+
+- Quantum Computing
+    Uses quantum phenomena for computation, fundamentally different from classical binary logic.
+
+## 13. Computer Organization vs Computer Architecture
+
+- Computer Architecture:
+
+  - Refers to the functional design and structure of a computer system.
+  - Focuses on how a computer's hardware components work together to execute instructions.
+  - Describes what a computer does and serves as the blueprint for designing computer systems.
+
+- Computer Organization:
+
+  - Focuses on the physical implementation of a computer system based on its architecture.
+  - Deals with how different hardware components, like the CPU, memory, and I/O devices are connected and work together to execute tasks.
+  - Describes how it does it.
+
+- Key Relationship:
+
+  - Architecture comes first (the design).
+  - Organization follows (the building).
+  - Multiple organizations can implement the same architecture.
+
+## 14. Equivalence of Hardware and Software
+
+The principle states that any task done by software can also be done using hardware, and vice versa.
+
+Performance (speed, cost, tangibility) differs greatly.
+
+Why it matters:
+
+- Design Flexibility: allows for innovation and optimization, letting designers shift functions between hardware and software.
+- Performance tuning: high-frequency or performance-critical tasks benefit from hardware implementation, while general-purpose tasks can use software.
